@@ -9,6 +9,12 @@ Feel free to provide pull requests. I will include them as fast as possible!
 
 ## 💥 Upgrade from Propaganistas/Laravel-Intl
 
+Probably you see this message all the time when installing Composer dependencies:
+
+> Package propaganistas/laravel-intl is abandoned, you should avoid using it. No replacement was suggested.
+
+Don't worry! This is the replacement you seek.
+
 In composer.json change requirement from `propaganistas/laravel-intl` to:
 
     "marvinrabe/laravel-intl": "^1.0",
