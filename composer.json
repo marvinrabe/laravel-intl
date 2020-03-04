@@ -1,0 +1,56 @@
+{
+    "name": "marvinrabe/laravel-intl",
+    "description": "Easy to use internationalization functions for Laravel",
+    "keywords": [
+        "laravel",
+        "internationalization",
+        "intl",
+        "i18n",
+        "l10n"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/marvinrabe/laravel-intl/issues",
+        "source": "https://github.com/marvinrabe/laravel-intl"
+    },
+    "authors": [
+        {
+            "name": "Marvin Rabe",
+            "email": "marvin.rabe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/events": ">=6.0",
+        "illuminate/support": ">=6.0",
+        "illuminate/contracts": ">=6.0",
+        "nesbot/carbon": "^2.0",
+        "commerceguys/intl": "^1.0.1",
+        "umpirsky/country-list": "^2.0",
+        "umpirsky/locale-list": "^1.0",
+        "punic/punic": "^3.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarvinRabe\\LaravelIntl\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarvinRabe\\LaravelIntl\\IntlServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
