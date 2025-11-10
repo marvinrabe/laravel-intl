@@ -24,7 +24,7 @@
         "illuminate/events": ">=6.0",
         "illuminate/support": ">=6.0",
         "illuminate/contracts": ">=6.0",
-        "nesbot/carbon": "^2.0",
+        "nesbot/carbon": ">=2.0",
         "commerceguys/intl": "^1.0.1",
         "umpirsky/country-list": "^2.0",
         "umpirsky/locale-list": "^1.0",
